@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto Slab', serif;
+    
+    
 }
 .head{
     background-color: rgba(229, 84, 115, 0.1);
@@ -85,11 +87,13 @@ nav {
 /*btn end here*/
 /*banner section end here*/
 /*main section start here*/
+/* deal section start here*/
 .deal-info{
     width: 1922px;
     height: 620px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 128px;
+    margin-bottom: 128px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,4 +124,33 @@ nav {
 .d-off{
     color: #E55473;
 }
+/* deal section end here*/
+/* social section start here*/
+.social-discription{
+    text-align: center;
+}
+.social-name{
+    color: #272727;
+    font-size: 40px;
+}
+.social-text{
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+.social-img-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 128px;
+}
+.social-img-card:hover{
+    cursor: pointer;
+}
+
+/* social section end here*/
+
 /*main section end here*/
