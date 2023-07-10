@@ -4,24 +4,44 @@
     padding: 0;
     font-family: 'Roboto Slab', serif;
 }
-/*banner container start here*/
+.head{
+    background-color: rgba(229, 84, 115, 0.1);
+    width: 1920px;
+    height: 850px;
+
+}
+/*nav section start here*/
+nav {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+    margin-right: 50px;
+}
+.nav-item{
+    display: flex;
+    gap: 25px;
+    font-weight: 200px;
+    font-size: 25px;
+    padding-top: 18px;
+    text-align: center;
+    font-style: bold;
+}
+.item:hover{
+    cursor:pointer;
+    color: #ec6c88;
+    transition: 0.2s;
+}
+/*nav section end here*/
+
+/*banner section start here*/
 .banner-container{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(229, 84, 115, 0.1);
-    width: 1920px;
-    height: 850px;
     margin: auto;
     
 }
-/*banner container end here*/
-/*banner title start here*/
-.banner-title{
-   
-   
-}
-/*banner title end here*/
+
 /*banner main-title start here*/
 .banner-main-title{
     color: #272727;
@@ -42,8 +62,9 @@
 .banner-img{
     width: 635px;
     height: 800px;
+    
 }
-/*banner image start here*/
+/*banner image end here*/
 /*btn start here*/
 .btn{
     color: #FFF;
@@ -60,3 +81,4 @@
     color: #070707;
 }
 /*btn start here*/
+/*banner section end here*/
