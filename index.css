@@ -152,5 +152,101 @@ nav {
 }
 
 /* social section end here*/
+/*latest deal section start here*/
+.deal-offer-container{
+       background-image: url("Flower Asset/Rectangle 9.png");
+       background-repeat: no-repeat;
+       width: 1440px;
+       height: 449px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-position: center;
+       margin: 0 auto;
+       flex-direction: column;
+       text-align: center;
+       
+
+ 
+   
+}
+.offer-title{
+    color: #272727;
+    font-size: 40px;
+    
+
+}
+.offer-text{
+    margin-top: 16px;
+    margin-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.form-box{
+    display: inline;
+    text-align: center;
+    align-items: center;
+    
+}
+.form{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    padding-left: 15px;
+}
+.Subscribe-btn{
+        color: #FFF;
+        font-size: 20px;
+        border-radius: 8px;
+        background: #E55473;
+        border: none;
+        padding: 18.9px 31px;
+        width: 150px;
+        height: 64px;
+        margin-left: 16px;
+        
+        
+        
+    }
+    .Subscribe-btn:hover{
+        cursor: pointer;
+        background-color: #ec6c88;
+        color: #070707;
+    }
+
+
+/*latest deal section end here*/
 
 /*main section end here*/
+/*footer section start here*/
+.foot-container{
+    background: #111010;
+    width: 1922px;
+    height: 449px;
+    color: white;
+    text-align: center;
+    display: column;
+    align-items:center;
+    margin-top: 128px;
+    
+}
+.footer-name{
+    color: #E55473;
+    
+}
+footer h1{
+    font-size: 48px;
+    padding-top: 128px;
+}
+.footer-text{
+    padding-top: 24px;
+    padding-bottom: 32px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+}
+
+/*footer section end here*/
