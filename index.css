@@ -1,0 +1,62 @@
+/*common style*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+/*banner container start here*/
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.1);
+    width: 1920px;
+    height: 850px;
+    margin: auto;
+    
+}
+/*banner container end here*/
+/*banner title start here*/
+.banner-title{
+   
+   
+}
+/*banner title end here*/
+/*banner main-title start here*/
+.banner-main-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+
+}
+/*banner main-title end here*/
+/*banner text start here*/
+.banner-text{
+    display: flex;
+    width: 634px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*banner text end here*/
+/*banner image start here*/
+.banner-img{
+    width: 635px;
+    height: 800px;
+}
+/*banner image start here*/
+/*btn start here*/
+.btn{
+    color: #FFF;
+    font-size: 20px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 43px;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #ec6c88;
+    color: #070707;
+}
+/*btn start here*/
