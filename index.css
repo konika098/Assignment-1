@@ -196,12 +196,17 @@ nav {
     padding-top: 86px;
   
 }
+.featuer-box-li{
+    display: column;
+    align-items: center;
+    text-align: center;
+}
 .featuer-img{
     width: 88px;
     height: 88px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   
+   
+    
 }
 .featuer-text{
     color: rgba(39, 39, 39, 0.80);
