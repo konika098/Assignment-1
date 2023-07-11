@@ -87,6 +87,15 @@ nav {
 /*btn end here*/
 /*banner section end here*/
 /*main section start here*/
+.alert-news{
+    padding-top:30px;
+    font-size: 34px;
+    color: #E55473;
+}
+.alert{
+    color: #272727;
+}
+
 /*featured section start here*/
 .card-container{
     display: flex;
@@ -187,6 +196,7 @@ nav {
     margin-right:240px ;
     margin-top: 128px;
     margin-bottom: 128px;
+  
 }
 .featuer-box{
     display: flex;
@@ -204,6 +214,8 @@ nav {
 .featuer-img{
     width: 88px;
     height: 88px;
+    display: block;
+    margin:  0 auto;
    
    
     
@@ -217,14 +229,40 @@ nav {
     padding-right: 100px;
 
 }
+#f-text{
+        padding-left: 50px;    
+}
 
     
 
 /*featured section start here*/
+.caption-container{
+   background-image: url('Flower\ Asset/caption.png');
+   width: 700px;
+   height: 700px;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   margin: 0 auto;
+  
+   margin-top: 100px;
+   margin-bottom: 100px;
+
+}
+.caption{
+    font-size:19px ;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    position: relative;
+    top: 210px;
+    right: 90px;
+
+}
 
 /* deal section start here*/
 .deal-info{
-    width: 1922px;
+    width: 100%;
     height: 620px;
     background: rgba(229, 84, 115, 0.05);
     margin-top: 128px;
